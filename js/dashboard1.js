@@ -78,10 +78,10 @@ $(function() {
         bindto: '#visitor',
         data: {
             columns: [
-                ['Other', 30],
-                ['Bonus', 10],
-                ['Exam', 40],
-                ['Mooc', 50],
+                ['Autres', 10],
+                ['Bonus', 20],
+                ['Mooc', 40],
+                ['Exam', 50],
             ],
 
             type: 'donut',
