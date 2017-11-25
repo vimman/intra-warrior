@@ -10,10 +10,10 @@ $(function() {
     // Sales overview
     // ============================================================== 
     var chart2 = new Chartist.Bar('.amp-pxl', {
-        labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+        labels: ['Français', 'Maths', 'Dessin', 'Histoire', 'SVT', 'EPS', 'Games'],
         series: [
-            [9, 5, 3, 7, 5, 10, 3],
-            [6, 3, 9, 5, 4, 6, 4]
+            [15, 10.5, 16, 7, 5, 10, 3],
+            [12, 12, 15, 5, 4, 6, 4]
         ]
     }, {
         axisX: {
@@ -25,7 +25,7 @@ $(function() {
             // On the y-axis start means left and end means right
             position: 'start'
         },
-        high: '12',
+        high: '20',
         low: '0',
         plugins: [
             Chartist.plugins.tooltip()
@@ -79,9 +79,9 @@ $(function() {
         data: {
             columns: [
                 ['Other', 30],
-                ['Desktop', 10],
-                ['Tablet', 40],
-                ['Mobile', 50],
+                ['Bonus', 10],
+                ['Exam', 40],
+                ['Mooc', 50],
             ],
 
             type: 'donut',
@@ -93,7 +93,7 @@ $(function() {
             label: {
                 show: false
             },
-            title: "Our visitor",
+            title: "",
             width: 20,
 
         },
