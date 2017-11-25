@@ -76,7 +76,7 @@ Global Styles
   outline: none; }
 
 body {
-  background: #fff;
+  background: #ff000;
   font-family: "Poppins", sans-serif;
   margin: 0;
   overflow-x: hidden;
@@ -86,7 +86,7 @@ body {
 html {
   position: relative;
   min-height: 100%;
-  background: #ffffff; }
+  background: #ff0000; }
 
 a:hover, a:focus {
   text-decoration: none; }
@@ -1922,7 +1922,7 @@ File: scss
     display: none; }
 
 .page-wrapper {
-  background: #eef5f9;
+  background: #1E88E5;
   padding-bottom: 60px; }
 
 .container-fluid {

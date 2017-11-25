@@ -1,7 +1,32 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
-    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
-  </head>
+	<head>
+		<title>Test</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body style="background-color: #1E88E5;"class="is-loading">
+		<div style="position: absolute; width: 100%; height: 100%;" id="canvas"></div>
+		<div id="wrapper">
+			<section id="main">
+				<header>
+					<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<h1>Intra Warrior</h1>
+					<p>connecte toi !</p>
+					<a href="../index.html" class="button">GO !</a>
+				</header>
+			</div>
+			<script
+				src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			crossorigin="anonymous"></script>
+		<script src="js/bubble.js"></script>
+		<script>
+			if ('addEventListener' in window) {
+				window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+				document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+			}
+		</script>
+
+	</body>
 </html>
