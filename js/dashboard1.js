@@ -93,7 +93,7 @@ $(function() {
             label: {
                 show: false
             },
-            title: "",
+            title: "1542 pts",
             width: 20,
 
         },
